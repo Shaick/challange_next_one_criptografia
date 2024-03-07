@@ -1,0 +1,100 @@
+* {
+    background-color:var(--fundo-transparente);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+:root {
+    --cor-principal:#0A3871;
+    --fundo-transparente:rgba(173,216,230,0.3);
+
+}
+
+.logo {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+body{
+    background-image: url(/assets/andreas-gucklhorn.jpg);
+    background-size: cover;
+ }
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    gap:40px;
+}
+
+.areatexto {
+    border: none;
+    color: var(--cor-principal);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: var(--cor-principal);}
+.areatexto:focus{ outline: none;}
+
+.mensagem {
+    background: white;
+    background-image: url(assets/raposa.png);
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    color: var(--cor-principal);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-left: 18px;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFD8;
+    border: 1px solid var(--cor-principal);
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background: var(--cor-principal);
+    border: 1px solid var(--cor-principal);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar{
+    border: 1px solid var(--cor-principal);
+    border-radius: 24px;
+    color: var(--cor-principal);
+    cursor: pointer;
+    height: 67px;
+    margin-top: 402px;
+    margin-left: 108px;
+    position: absolute;
+    width: 336px;
+}
